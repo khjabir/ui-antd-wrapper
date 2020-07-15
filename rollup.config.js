@@ -17,10 +17,10 @@ export default {
     ],
     plugins: [
       sass({ insert: true }),
-      typescript({ objectHashIgnoreUnknownHack: true }),
+      typescript({ objectHashIgnoreUnknownHack: false }),
       postcss({
         plugins: []
       })
     ],
-    external: ['react', 'react-dom', 'antd', 'prop-types']
+    external: ['react', 'react-dom', 'antd', 'prop-types', '@ant-design/icons']
 }

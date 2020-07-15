@@ -1,12 +1,12 @@
 {
   "name": "ui-antd-wrapper",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
-    "start": "rollup -c -w" 
+    "start": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -38,5 +38,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }

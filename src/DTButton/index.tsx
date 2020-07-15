@@ -3,7 +3,7 @@ import * as React from 'react'
 import { Button } from 'antd';
 import * as PropTypes from 'prop-types'
 
-// import getIcon from '@components/DTIcon';
+import getIcon from '../DTIcon';
 
 /**
 - Description here
@@ -14,7 +14,7 @@ const DTButton = ({
 	type,
 	size,
 	htmlType,
-	// icon,
+	icon,
 	className,
 	style,
 	loading,
@@ -28,7 +28,7 @@ const DTButton = ({
 		type={type}
 		size={size}
 		htmlType={htmlType}
-		// icon={icon && getIcon(icon)}
+		icon={icon && getIcon(icon)}
 		className={className}
 		style={style}
 		loading={loading}

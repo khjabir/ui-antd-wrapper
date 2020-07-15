@@ -47,10 +47,7 @@ DTButton.propTypes = {
 	type      : PropTypes.oneOf(['primary', 'ghost', 'dashed', 'link', 'default', 'danger']),
 	size      : PropTypes.oneOf(['small', 'middle', 'large']),
 	htmlType  : PropTypes.string,
-	/**
-    Uses dt-ui-library icon component internally
-    */
-	// icon      : PropTypes.object,
+	icon      : PropTypes.object,
 	className : PropTypes.string,
 	style     : PropTypes.object,
 	loading   : PropTypes.bool,
@@ -65,7 +62,7 @@ DTButton.defaultProps = {
 	type      : 'primary',
 	size      : 'middle',
 	htmlType  : 'button',
-	// icon      : undefined,
+	icon      : undefined,
 	className : undefined,
 	style     : {},
 	loading   : false,

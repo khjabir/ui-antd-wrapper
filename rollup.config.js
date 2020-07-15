@@ -2,6 +2,10 @@ import sass from 'rollup-plugin-sass'
 import typescript from 'rollup-plugin-typescript2'
 import postcss from 'rollup-plugin-postcss'
 
+import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import resolve from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs";
+
 import pkg from './package.json'
 
 export default {
@@ -17,10 +21,13 @@ export default {
     ],
     plugins: [
       sass({ insert: true }),
-      typescript({ objectHashIgnoreUnknownHack: false }),
       postcss({
         plugins: []
-      })
+      }),
+      peerDepsExternal(),
+      resolve(),
+      commonjs(),
+      typescript({ useTsconfigDeclarationDir: true }),
     ],
     external: ['react', 'react-dom', 'antd', 'prop-types', '@ant-design/icons']
 }

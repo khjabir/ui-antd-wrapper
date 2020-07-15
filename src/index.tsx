@@ -1,6 +1,8 @@
 import './styles/antd.css';
-import DTButton from './DTButton/index.js';
+import DTButton from './DTButton';
+import DTIcon from './DTIcon';
 
 export {
-	DTButton
+	DTButton,
+	DTIcon,
 };

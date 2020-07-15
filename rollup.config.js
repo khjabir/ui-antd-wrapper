@@ -18,5 +18,5 @@ export default {
       sass({ insert: true }),
       typescript({ objectHashIgnoreUnknownHack: true })
     ],
-    external: ['react', 'react-dom', 'antd', 'prop-types', 'antd/dist/antd.css']
+    external: ['react', 'react-dom', 'antd', 'prop-types']
 }

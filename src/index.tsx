@@ -2,7 +2,6 @@
 import * as React from 'react'
 import { Button } from 'antd';
 import * as PropTypes from 'prop-types'
-import 'antd/dist/antd.css';
 
 // import getIcon from '@components/DTIcon';
 

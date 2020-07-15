@@ -2,6 +2,7 @@
 import * as React from 'react'
 import { Button } from 'antd';
 import * as PropTypes from 'prop-types'
+import './styles.scss'
 
 // import getIcon from '@components/DTIcon';
 

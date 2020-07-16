@@ -55,6 +55,7 @@ DTButton.propTypes = {
 	disabled  : PropTypes.bool,
 	danger    : PropTypes.bool,
 	onClick   : PropTypes.func,
+	shape     : PropTypes.string,
 };
 
 DTButton.defaultProps = {
@@ -70,6 +71,7 @@ DTButton.defaultProps = {
 	danger    : false,
 	disabled  : false,
 	onClick   : () => {},
+	shape     : undefined,
 };
 
 export default DTButton;

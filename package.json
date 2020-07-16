@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git+https://khjabir@github.com/khjabir/ui-antd-wrapper.git"
   },
-  "keywords": [],
+  "keywords": [
+    "ui-antd-wrapper",
+    "nextjs",
+    "ui-library",
+    "antd"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {

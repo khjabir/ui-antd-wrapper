@@ -80,7 +80,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-# dist // dist is commented for installing the package from github
+# dist // dist is commented for installing the package from github - npm i https://github.com/khjabir/ui-antd-wrapper.git
 
 # Gatsby files
 .cache/
